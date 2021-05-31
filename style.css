@@ -1,0 +1,49 @@
+body 
+{
+    font-family: 'Raleway', sans-serif;
+}
+
+.title_h1{
+    font-weight: bold;
+}
+
+.filters{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.fa-solid fa-info{
+    content: "\f129";
+}
+
+
+.blocs{
+    display: flex;
+    flex-wrap: wrap;
+    
+    }
+
+.navbar{
+    display: flex;
+    justify-content: right;
+    justify-content: center;
+    align-items: center;
+    
+    
+
+}
+
+
+.nav_hebergement{
+    color: #0065FC;
+}
+
+.nav_activite{
+    
+}
+
+.nav_inscription{
+    color:#0065FC;
+    font-;
+}
