@@ -3,47 +3,85 @@ body
     font-family: 'Raleway', sans-serif;
 }
 
+
+.logo{
+padding: 0;
+}
+
+.navbar{
+display: flex;
+flex-wrap: wrap;
+justify-content: flex-end;
+
+}
+
+.nav_hb{
+display: flex;
+
+
+
+}
+
+.nav_act{
+display: flex;
+
+
+}
+
+
+.nav_su{
+display: flex;
+
+
+
+}
+
 .title_h1{
-    font-weight: bold;
+
+margin: 10px 0;
+}
+
+
+.searchbox{
+
+
+}
+
+.title_h3_filters{
+
 }
 
 .filters{
-    display:flex;
+    display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
-}
-
-.fa-solid fa-info{
-    content: "\f129";
 }
 
 
-.blocs{
-    display: flex;
-    flex-wrap: wrap;
-    
-    }
 
-.navbar{
-    display: flex;
-    justify-content: right;
-    justify-content: center;
-    align-items: center;
-    
-    
+.filters-button{
+    list-style-type: none;
+    border: solid 2px #e2e2e2;  
+}
+      
+
+
+.icon-filter{
+    background-color: #DEEBFF;
+    color: #0065fc;
+    padding: 18px;
+    border-radius: 200px;
+    margin-right: 15px;
+}
+
+.fa-money-bill-wave{
+    content: "\f53a";
+}
+
+.fa, .fas{
+display: inline-block;
+
+
 
 }
 
 
-.nav_hebergement{
-    color: #0065FC;
-}
-
-.nav_activite{
-    
-}
-
-.nav_inscription{
-    color:#0065FC;
-    font-;
-}

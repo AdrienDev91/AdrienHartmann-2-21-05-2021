@@ -1,76 +1,78 @@
 <!Doctype html>
 <html lang="fr">
+
 <head>
-         <meta charset="UTF-8">
-         <title>Reservia</title>
+    <meta charset="UTF-8">
+    <title>Reservia</title>
 
 
     <link type="text/css" rel="stylesheet" href="style.css">
 
 </head>
+
 <body>
     <!--GoogleFonts-->
 
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
 
     <!--En-tête-->
 
     <header>
 
-       <a href="index.html"><img src="images/logo/Reservia.svg" alt="logo"></a>
-<nav>  
-    <div class="navbar">
-        <a class="nav_hebergement">Hébergement</a>
-        <a class="nav_activite">Activités</a>
-        <a class="nav_inscription">S'inscrire</a>
-    </div>  
-</nav> 
-    
-    
+        <a class="logo" href="index.html"><img src="images/logo/Reservia.svg" alt="logo"></a>
+        <nav>
+            <div class="navbar">
+                <a class="nav_hb">Hébergement</a>
+                <a class="nav_act">Activités</a>
+                <a class="nav_su">S'inscrire</a>
+            </div>
+        </nav>
 
-    
+
+
+
     </header>
 
 
-<main>
+    <main>
         <div>
             <h1 class="title_h1">Trouvez votre hébergement pour des vacances de rêve</h1>
             <p>En plein centre de ville ou en pleine nature</p>
         </div>
 
-    <!--Bouton recherche-->
-    
+        <!--Bouton recherche-->
 
-        <div>
+
+        <div class="searchbox">
             <input type="text" placeholder="Marseille, France">
             <button>Rechercher</button>
         </div>
 
-    <!--Filtres-->
+        <!--Filtres-->
 
         <div>
-            <h3>Filtres</h3>
-                <ul class="filters">
-                    <li>Économique</li>
-                    <li>Familial</li>
-                    <li>Romantique</li>
-                    <li>Animaux autorisés</li>
-                </ul>
+            <h3 class="title_h3_filters">Filtres</h3>
+            <ul class="filters">
+                <li class="filters-button"><i class="fas fa-money-bill-wave icon-filter"></i>Économique</li>
+                <li class="filters-button"><i class="fas fa-child icon-filter"></i>Familial</li>
+                <li class="filters-button"><i class="fas fa-heart icon-filter"></i>Romantique</li>
+                <li class="filters-button"><i class="fas fa-dog icon-filter"></i>Animaux autorisés</li>
+            </ul>
         </div>
-                
+
 
         <div>
             <i class="fa-solid fa-info"></i>
             <p>Plus de 500 logements sont disponibles dans cette ville</p>
         </div>
 
-    <!--Bloc1 "Hébergements à Marseille"-->
-    
+        <!--Bloc1 "Hébergements à Marseille"-->
+
         <div>
             <h2>Hébergement à Marseille</h2>
         </div>
-    <section class="blocs">
+        <section class="blocs">
             <div>
 
                 <img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Auberge la Cannebière">
@@ -121,28 +123,30 @@
             <div>
                 <p>Afficher plus</p>
             </div>
-    </section>
+        </section>
 
-    <!--Bloc2 "Les plus populaires"-->
-    
-    <section>
+        <!--Bloc2 "Les plus populaires"-->
+
+        <section>
             <div>
 
-             <h2>Les plus populaires</h2>
+                <h2>Les plus populaires</h2>
 
             </div>
 
             <div>
 
-              <img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"  alt="Hôtel le soleil du matin">
-              <h3>Hôtel le soleil du matin</h3>
-              <p>Nuit à partir de 126€</p>
+                <img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
+                    alt="Hôtel le soleil du matin">
+                <h3>Hôtel le soleil du matin</h3>
+                <p>Nuit à partir de 126€</p>
 
             </div>
 
             <div>
 
-                <img src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="Au coeur de l'eau Chambres d'hôtes">
+                <img src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg"
+                    alt="Au coeur de l'eau Chambres d'hôtes">
                 <h3>Au coeur de l'eau Chambres d'hôtes</h3>
                 <p>Nuit à partir de 71€</p>
 
@@ -150,16 +154,17 @@
 
             <div>
 
-                <img src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Hôtel Tout bleu et Blanc">
+                <img src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
+                    alt="Hôtel Tout bleu et Blanc">
                 <h3>Hôtel Tout bleu et Blanc</h3>
                 <p>Nuit à partir de 68€</p>
-            
+
             </div>
-    </section>
+        </section>
 
-    <!--Bloc3 "Activités à Marseille"-->
+        <!--Bloc3 "Activités à Marseille"-->
 
-    <section>
+        <section>
             <div>
 
                 <h2>Activités à Marseille</h2>
@@ -189,7 +194,8 @@
 
             <div>
 
-                <img src="images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="Parc National des Calanques">
+                <img src="images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
+                    alt="Parc National des Calanques">
                 <h3>Parc National des Calanques</h3>
 
             </div>
@@ -207,30 +213,31 @@
                 <h3>Parc Longchamp</h3>
 
             </div>
-    </section>
-</main>
+        </section>
+    </main>
 
-<!--Bas de Page-->
+    <!--Bas de Page-->
 
-<footer>
-    <div>
-        <h3>A propos</h3>
-        <p>Fonctionnement du site</p>
-        <p>Conditions générales de vente</p>
-        <p>Données de confidentialité</p>
-    </div>
+    <footer>
+        <div>
+            <h3>A propos</h3>
+            <p>Fonctionnement du site</p>
+            <p>Conditions générales de vente</p>
+            <p>Données de confidentialité</p>
+        </div>
 
-    <div>
-        <h3>Nos hébergements</h3>
-        <p>Charte qualité</p>
-        <p>Soumettre votre hôtel</p>
-    </div>
+        <div>
+            <h3>Nos hébergements</h3>
+            <p>Charte qualité</p>
+            <p>Soumettre votre hôtel</p>
+        </div>
 
-    <div>
-        <h3>Assistance</h3>
-        <p>Centre d'aide</p>
-        <p>Nous contacter</p>
-    </div>
-</footer>
+        <div>
+            <h3>Assistance</h3>
+            <p>Centre d'aide</p>
+            <p>Nous contacter</p>
+        </div>
+    </footer>
 </body>
+
 </html>
