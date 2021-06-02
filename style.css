@@ -42,23 +42,15 @@ margin: 10px 0;
 }
 
 
-.searchbox{
-
-
-}
-
-.title_h3_filters{
-
-}
-
 .filters{
-    display: flex;
-    flex-flow: row wrap;
+    display: inline-block;
+
 }
 
 
 
 .filters-button{
+    display: inline-block;
     list-style-type: none;
     border: solid 2px #e2e2e2;  
 }
@@ -67,21 +59,32 @@ margin: 10px 0;
 
 .icon-filter{
     background-color: #DEEBFF;
-    color: #0065fc;
+    color: #0064fa;
     padding: 18px;
     border-radius: 200px;
     margin-right: 15px;
 }
 
-.fa-money-bill-wave{
-    content: "\f53a";
+
+
+
+
+.fa, .fa-solid{
+display: inline-block;
+font-weight: 900;
+
+
+
 }
 
-.fa, .fas{
-display: inline-block;
 
-
-
+.info-logo{
+    background-color: white;
+    width: 0.5%;
+    padding: 7px 11px 7px 11px;
+    color: #0064fa;
+    border:solid 1px #D9D9D9;
+    border-radius: 2000px;
 }
 
 
