@@ -2,6 +2,7 @@ body
 {
  font-family: 'Raleway', sans-serif;
  margin: auto;
+ 
 }
 
 head{
@@ -18,11 +19,13 @@ padding: 0;
 display: flex;
 flex-wrap: wrap;
 justify-content: flex-end;
+font-weight: bold;
 
 }
 
 .nav_hb{
 display: flex;
+color: #0064fa;
 
 
 
@@ -37,13 +40,14 @@ display: flex;
 
 .nav_su{
 display: flex;
+color: #0064fa;
 
 
 
 }
 
 .title_h1{
-
+font-size: 32px;
 margin: 10px 0;
 }
 
@@ -122,4 +126,11 @@ background-color: #F2F2F2;
 border-radius: 14px 0 0 14px;
 }
 
+.title_h3_filters{
+    font-size: 24px;
+    
+}
 
+.p{
+    font-weight: normal;
+}
