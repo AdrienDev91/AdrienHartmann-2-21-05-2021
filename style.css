@@ -1,11 +1,17 @@
 body 
 {
-    font-family: 'Raleway', sans-serif;
+ font-family: 'Raleway', sans-serif;
+ margin: auto;
 }
 
+head{
+margin: auto;
+}
 
 .logo{
 padding: 0;
+ 
+
 }
 
 .navbar{
@@ -41,9 +47,23 @@ display: flex;
 margin: 10px 0;
 }
 
+.research-box{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.info{
+    display: inline-block;
+    display: flex;
+    flex-direction: row;  
+}
 
 .filters{
     display: inline-block;
+    display: flex;
+    flex-direction: row;
 
 }
 
@@ -52,7 +72,8 @@ margin: 10px 0;
 .filters-button{
     display: inline-block;
     list-style-type: none;
-    border: solid 2px #e2e2e2;  
+    border: solid 2px #e2e2e2;
+    border-radius: 200px  
 }
       
 
@@ -69,9 +90,10 @@ margin: 10px 0;
 
 
 
-.fa, .fa-solid{
+.fa, .fas{
 display: inline-block;
 font-weight: 900;
+
 
 
 
@@ -80,11 +102,24 @@ font-weight: 900;
 
 .info-logo{
     background-color: white;
-    width: 0.5%;
+    width: 0.6%;
+    height: 0.6%;
     padding: 7px 11px 7px 11px;
     color: #0064fa;
     border:solid 1px #D9D9D9;
     border-radius: 2000px;
+    margin-right: 20px;
+    line-height: 1;
+}
+
+.icon-location{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 55px;
+height: auto;
+background-color: #F2F2F2;
+border-radius: 14px 0 0 14px;
 }
 
 
