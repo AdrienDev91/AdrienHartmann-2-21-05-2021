@@ -4,59 +4,41 @@ body
  
 }
 
-main{
-
-width: 98%;
-margin: auto;
-max-width: 1440px;
-
-
-}
-
-head{
-
+header{
+    display: flex;
+    justify-content: space-between;
 }
 
 .logo{
-padding: 0;
- 
-
+    align-items: center;
 }
 
-.navbar{
+
+.menu{
 display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-
-
-
 }
 
-.nav_hb{
+
+.navigation{
 display: flex;
-color: #0064fa;
-padding: 25px;
+list-style-type:none ;
 
 
 }
 
-.nav_act{
-display: flex;
-padding: 25px;
-
-
+.hebergement_nav{
+    color:#0064fa;
+    padding: 25px;
 }
 
-
-.nav_su{
-display: flex;
-color: #0064fa;
-padding: 25px;
-
-
-
+.activites_nav{
+    padding: 25px;
 }
+.sinscrire_nav{
+    color: #0064fa;
+    padding: 25px;
+}
+
 
 .title_h1{
 font-size: 32px;
@@ -68,8 +50,6 @@ margin: 10px 0;
     flex-direction: row;
 }
 
-
-
 .info{
     display: inline-block;
     display: flex;
@@ -80,10 +60,7 @@ margin: 10px 0;
     display: inline-block;
     display: flex;
     flex-direction: row;
-
 }
-
-
 
 .filters-button{
     display: inline-block;
@@ -94,26 +71,17 @@ margin: 10px 0;
 }   
       
 
-
 .icon-filter{
     background-color: #DEEBFF;
     color: #0064fa;
-    padding: 18px;
+    padding: 15px;
     border-radius: 200px;
     margin-right: 15px;
 }
 
-
-
-
-
 .fa, .fas{
-display: inline-block;
-font-weight: 900;
-
-
-
-
+    display: inline-block;
+    font-weight: 900;
 }
 
 
@@ -156,9 +124,6 @@ border-radius: 14px 0 0 14px;
     justify-content: space-between;
     align-items: center;
     background-color:#F2F2F2;
-    
-
-    
 
 }
 
