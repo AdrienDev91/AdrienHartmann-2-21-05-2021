@@ -6,6 +6,7 @@ body
 
 }
 main{
+    width: 96%;
     max-width: 1440px;
     margin: auto;
 }
@@ -144,9 +145,10 @@ margin: 10px 0;
     margin-right: 15px;
 }
 
-.fa, .fas{
-    display: inline-block;
+.fa, .fas,{
+    
     font-weight: 900;
+    
 }
 
 
@@ -180,62 +182,9 @@ margin: 10px 0;
 
 }
 
-.blocs{
-
-    display: flex;
-    flex-direction: column;
-    background-color: #F2F2F2;
-    border-radius: 25px;
-}
-
-.bloc_accomodation{
-
-    display: flex;
-    
-    
-    
-    
-
-}
-
-.bloc_most-popular{
-
-    display: flex;
-    
-    
-}
-
-.bloc_activities{
-
-    display: flex;
-    
-    
-
-}
-
-.img-case1{
-
-    max-height: 100px;
-    min-width: 150px;
-    
-    
-    
-}
-
-.img-case2{
-
-    
-    max-height: 100px;
-    min-width: 150px;
-
-}
 
 
-
-
-
-
-
+ 
 .footer{
     
     width: 100%;
@@ -266,5 +215,93 @@ margin: 10px 0;
 
     font-size: 18px;
     
+}
+
+
+
+
+/*Bloc Hebergement*/
+
+.blocs{
+
+    display:flex ;   
+
+
+}
+
+.bloc_hebergements{
+
+    display: block;
+    flex: 2;
+    height: 500px;
+    margin-right: 15px;
+    border-radius: 25px;
+    background-color: #F2F2F2;
+    
+
+}
+
+.hebergements-imgs{
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 25px;
+    padding: 0 0 0 0;
+    
+
+}
+
+.img-case1{
+
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: start;
+    border-radius: 20px;
+    border: 5px solid transparent;
+    box-shadow: 0px 0px 6px 0px #0000002e;
+}
+
+.nom-hotel{
+
+    margin: 0;
+
+}
+
+.prix-hotel{
+
+    padding: 0 5px 0 5px;
+    margin: 5px 0 5px 0;
+
+}
+
+.stars{
+
+    display: inline-block;
+
+}
+
+.bloc_most-popular{
+
+    display: block;
+    flex: 1;
+    height: 500px;
+    margin-left: 15px;
+    border-radius: 25px;
+    background-color: #F2F2F2;
+
+    
+}
+
+.img{
+
+    width: 100%;
+    height: 100px;
+    background-size: 100% 100%;
+    border-radius: 20px 20px 0 0;
+    object-fit: cover;
+    
+
 
 }
