@@ -220,6 +220,15 @@ margin: 10px 0;
 }
 
 
+.title-h2_bloc{
+
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    margin-left: 35px;
+    
+}
+
 
 
 /*BLOC HEBERGEMENT*/
@@ -235,7 +244,7 @@ margin: 10px 0;
 
     display: block;
     flex: 2;
-    height: 500px;
+    height: 550px;
     margin-right: 15px;
     border-radius: 25px;
     background-color: #F2F2F2;
@@ -247,8 +256,11 @@ margin: 10px 0;
 
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 25px;
-    padding: 0 0 0 0;
+    grid-gap: 20px;
+    padding: 10px 10px 10px 10px;
+    margin: auto;
+    width: 92%;
+    
     
 
 }
@@ -284,7 +296,7 @@ margin: 10px 0;
 
 .prix-hotel{
 
-    padding: 0 5px 0 5px;
+    
     margin: 5px 0 5px 0;
 
 }
@@ -302,7 +314,7 @@ margin: 10px 0;
 
     display: block;
     flex: 1;
-    height: 500px;
+    height: 550px;
     margin-left: 15px;
     border-radius: 25px;
     background-color: #F2F2F2;
@@ -315,9 +327,10 @@ margin: 10px 0;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 0.25fr 1fr 1fr 1fr;
-    row-gap: 25px;
-    height: 90%;
+    row-gap: 20px;
     width: 90%;
+    height: 90%;
+    margin: auto;
 
 }
 
@@ -349,3 +362,42 @@ margin: 10px 0;
 
 }
 
+.nom_prix_stars{
+
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.nom_prix{
+
+
+
+}
+
+.h2-pop{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    margin: 22px 0 15 0;
+
+}
+
+.afficher-plus{
+
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    margin-left: 35px;
+    font-weight: bold; 
+
+}
+
+.populaire-boites i {
+
+    font-size: 25px;
+}
