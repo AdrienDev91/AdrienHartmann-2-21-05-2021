@@ -10,41 +10,28 @@ main{
     max-width: 1440px;
     margin: auto;
 }
-
 header{
     display: flex;
     justify-content: space-between;
     max-width: 1440px;
     margin: auto;
 }
-
 ul{
     list-style: none;
 }
-
 .logo{
     align-items: center;
 }
-
-
 .menu{
 display: flex;
 }
-
-
 .navigation{
 display: flex;
-
-
-
 }
-
 .hebergement_nav{
     color:#0064fa;
-    padding: 25px;
-    
+    padding: 25px;  
 }
-
 .activites_nav{
     padding: 25px;
 }
@@ -53,41 +40,30 @@ display: flex;
     padding: 25px;
     font-weight: 600;
 }
-
-
 .title_h1{
 font-size: 32px;
 margin: 10px 0;
 }
-
 .research-box{
     display: flex;
     flex-direction: row;
     margin-top: 15px;
     margin-bottom: 35px;
 }
-
 .research_bar{
-
     padding-left:  20px;
     height: 50px;
     width: 220px;
     border: none;
     border-top: solid 1px #F2F2F2;
     border-bottom: solid 1px #F2F2F2;
-    
-
 }
-
 ::placeholder{
-
     color: black;
     font-size: 16px;
     font-weight: bold;
 }
-
 .button_research{
-
     border: none;
     border-radius: 0 14px 14px 0;
     background-color: #0065fc;
@@ -95,37 +71,27 @@ margin: 10px 0;
     font-weight: 700;
     font-size: 16px;
     padding: 17px;
-
-
 }
-
 .info{
     display: inline-block;
     display: flex;
     flex-direction: row;
     align-items: center;  
 }
-
 .ul-list{
-
     display: inline-flex;
     flex-direction: row;
     flex-wrap: wrap;
     padding: 0;
-
 }
-
 .filters{
     display: inline-block;
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding-right: 0;
-    
+    padding-right: 0; 
 }
-
 .filters-button{
-    
     display: inline-block;
     margin-left: 25px;
     font-weight: 700;
@@ -135,8 +101,6 @@ margin: 10px 0;
     border-radius: 200px; 
     
 }   
-      
-
 .icon-filter{
     background-color: #DEEBFF;
     color: #0064fa;
@@ -144,16 +108,9 @@ margin: 10px 0;
     border-radius: 200px;
     margin-right: 15px;
 }
-
 .fa, .fas{
     font-weight: 900;
 }
-    
-    
-    
-
-
-
 .info-logo{
     background-color: white;
     width: 0.6%;
@@ -163,10 +120,8 @@ margin: 10px 0;
     border:solid 1px #D9D9D9;
     border-radius: 2000px;
     margin-right: 20px;
-    line-height: 1;
-    
+    line-height: 1; 
 }
-
 .icon-location{
     display: flex;
     justify-content: center;
@@ -176,97 +131,60 @@ margin: 10px 0;
     background-color: #F2F2F2;
     border-radius: 14px 0 0 14px;
 }
-
 .title_h3_filters{
-
     font-size:  24px;
     justify-content: center;
-
 }
-
-
-
- 
 .footer{
-    
     width: 100%;
     background: #F2F2F2;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
-
 .footer_bloc{
-
     max-width: 1440px;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    
 }
-
 .footer_links{
-
     margin-bottom: 10px;
-
 }
-
 .footer_h3{
-
-    font-size: 18px;
-    
+    font-size: 18px;  
 }
-
-
 .title-h2_bloc{
-
     display: flex;
     justify-content: flex-start;
     width: 100%;
-    margin-left: 35px;
-    
+    margin-left: 35px;  
 }
-
 
 
 /*BLOC HEBERGEMENT*/
 
 .blocs{
-
     display:flex ;   
-
-
 }
-
 .bloc_hebergements{
-
     display: block;
     flex: 2;
     height: 550px;
     margin-right: 15px;
     border-radius: 25px;
     background-color: #F2F2F2;
-    
-
 }
-
 .hebergements-boites{
-
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
     padding: 10px 10px 10px 10px;
     margin: auto;
     width: 92%;
-    
-    
-
 }
-
 .img-case1{
-
     background: white;
     display: flex;
     flex-direction: column;
@@ -278,52 +196,34 @@ margin: 10px 0;
 }
 
 .img{
-
     width: 100%;
     height: 100px;
     background-size: 100% 100%;
     border-radius: 20px 20px 0 0;
     object-fit: cover;
-    
-
-
 }
 .nom-hotel{
-
     margin: 0;
-
 }
-
 .prix-hotel{
-
-    
     margin: 5px 0 5px 0;
-
 }
-
 .stars{
-
     display: inline-block;
-
 }
-
 
 /*BLOC POPULAIRE*/
 
-.bloc_populaire{
 
+.bloc_populaire{
     display: block;
     flex: 1;
     height: 550px;
     margin-left: 15px;
     border-radius: 25px;
-    background-color: #F2F2F2;
-
-    
+    background-color: #F2F2F2; 
 }
-
 .populaire-boites{
-
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 0.25fr 1fr 1fr 1fr;
@@ -331,73 +231,112 @@ margin: 10px 0;
     width: 90%;
     height: 90%;
     margin: auto;
-
 }
-
 .img-case2{
-
     display: flex;
     margin: 0;
     background-color: white;
     border-radius: 20px;
     padding: 7px 0 7px 7px;
-    box-shadow: 0px 0px 6px 0px #0000002e;
-
+    box-shadow: 0px 0px 6px 0px 
 }
-
 .img2{
-
     display: flex;
     width: 170px;
     height: 110px;
     border-radius: 20px 0 0 15px;
     object-fit: cover;
-
 }
-
 .prix-hotel_p{
-
     padding: 0 5px 0 5px;
     margin: 5px 0 25px 0;
-
 }
-
 .nom_prix_stars{
-
     margin-left: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
 }
-
 .nom_prix{
 
 
-
 }
-
 .h2-pop{
-
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 0;
     margin: 22px 0 15 0;
-
 }
-
 .afficher-plus{
-
     display: flex;
     justify-content: flex-start;
     width: 100%;
     margin-left: 35px;
     font-weight: bold; 
-
+}
+.populaire-boites i {
+    font-size: 25px;
 }
 
-.populaire-boites i {
 
-    font-size: 25px;
+/*BLOC ACTIVITÉS*/
+
+.bloc_activites{
+     display: grid;
+     height: 550px;
+}
+.container-activites{
+    display: grid;
+    height: 550px;
+    margin-bottom: 50px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 5fr 0.25fr 0.25fr 0.25fr 0.25fr 5fr;
+    grid-template-areas: "pic1 pic2 pic4 pic5""pic1 pic2 pic4 pic5""pic1 pic2 pic4 pic6""pic1 pic2 pic4 pic6""pic1 pic3 pic4 pic6""pic1 pic3 pic4 pic6";
+    grid-gap: 30px;       
+}
+.img-case3{
+
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: 1px 1px 17px -10px 
+}
+.img3{
+
+    object-fit: cover;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+.h3-activites{
+
+    position: absolute;
+    width: 95%;
+    background-color: white;
+    border-radius: 0 0 20px 20px;
+    padding: 20px 0 20px 5%;
+    margin: 0;
+    bottom: 0;
+
+}
+#pic1{
+    grid-area: pic1;
+}
+#pic2{
+    grid-area: pic2;
+}
+#pic3{
+    grid-area: pic3;
+}
+#pic4{
+    grid-area: pic4;
+}
+#pic5{
+    grid-area: pic5;
+}
+#pic6{
+    grid-area: pic6;
 }
