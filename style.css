@@ -110,6 +110,10 @@ ul{
 }
 .fa, .fas{
     font-weight: 900;
+    color: #0064fa;
+}
+.far{
+    color: #e2e2e2;
 }
 .info-logo{
     background-color: white;
