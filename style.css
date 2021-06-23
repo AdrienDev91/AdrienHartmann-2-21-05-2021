@@ -361,13 +361,9 @@ ul{
 
 @media screen and (max-width:600px){
 
-
-
-/*.container-activites{
-    display: flex;
-    flex-direction: column;
- 
-}*/
+main{
+    width: 100%;
+}
 .blocs{
     display: flex;
     flex-direction: column-reverse;
@@ -377,13 +373,14 @@ ul{
     background-color:white;
     display: flex;
     flex-direction: column;
-    
+    width: 96%;
+    margin: auto;   
 }
 .hebergements-boites{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-left: 0;
+
 }
 .bloc_populaire{
     display: flex;
@@ -398,15 +395,27 @@ ul{
     width: 90%;
     margin: auto;
     padding-bottom: 22px;
-    margin-left: 10px;
+    
 
 }
 .title-h2_bloc{
-    margin-left: 10px;
+    margin-left: 20px;
+}
+.container-activites{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    
+}
+.img-case3{
+    height: 230px;
 }
 .footer{
     display: flex;
     flex-direction: column;
+    
+    
 }
 
 }
