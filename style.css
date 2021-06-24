@@ -110,7 +110,7 @@ ul{
 }
 .fa, .fas{
     font-weight: 900;
-    color: #0064fa;
+
 }
 .far{
     color: #e2e2e2;
@@ -222,6 +222,7 @@ ul{
 .stars{
     display: inline-block;
     padding-left: 7px;
+    color: #0064fa;
 }
 .afficher-plus{
     display: flex;
@@ -277,10 +278,7 @@ ul{
     flex-direction: column;
     justify-content: space-between;
 }
-.nom_prix{
 
-
-}
 .h2-pop{
     display: flex;
     align-items: center;
