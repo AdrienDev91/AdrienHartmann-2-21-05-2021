@@ -364,6 +364,32 @@ ul{
 main{
     width: 100%;
 }
+.filters{
+    display: inline-block
+}
+.title_h3_filters{
+    margin: 25px 0 -15px 30px;
+    align-items: center;
+    
+}
+.research-box{
+    width: 90%;
+    margin: auto
+}
+.p1{
+    margin: 10px 0 25px 25px
+}
+.title_h1{
+
+    font-size: 21px;
+    width: 90%;
+    margin: auto;
+}
+.info{
+    width: 90%;
+    margin: auto;
+}
+
 .blocs{
     display: flex;
     flex-direction: column-reverse;
@@ -380,6 +406,7 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    width: 90%;
 
 }
 .bloc_populaire{
@@ -392,7 +419,7 @@ main{
 }
 .populaire-boites{
 
-    width: 90%;
+    width: 92%;
     margin: auto;
     padding-bottom: 22px;
     
@@ -404,7 +431,7 @@ main{
 .container-activites{
     display: flex;
     flex-direction: column;
-    width: 90%;
+    width: 92%;
     margin: auto;
     
 }
@@ -414,8 +441,11 @@ main{
 .footer{
     display: flex;
     flex-direction: column;
-    
-    
+    position: relative;
+    top: 1000px;   
+}
+.footer_bloc{
+    margin-left: 20px;
 }
 
 }
