@@ -21,13 +21,16 @@ ul{
 .logo{
     display: flex;
     align-items: center;
+    
 }
-.menu{
+.navbar{
     display: flex;
+    
 }
 .navigation{
     display: flex;
     align-items: center;
+    
 }
 .hebergement_nav{
     color:#0064fa;
@@ -365,9 +368,31 @@ ul{
 main{
     width: 100%;
 }
-.navigation{
-    
+
+.navbar{
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "logo navbar-signup""navbar-hebergement navbar-activites";
 }
+.logo{
+    grid-area: logo;
+    padding-left: 15px;
+}
+.hebergement_nav{
+    grid-area: navbar-hebergement;
+    margin: auto;
+}
+.activites_nav{
+    grid-area: navbar-activites;
+    margin: auto;
+}
+.sign-up{
+    grid-area: navbar-signup;
+    justify-content: flex-end;
+}
+
 .filters{
     display: inline-block
 }
