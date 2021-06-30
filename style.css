@@ -14,6 +14,7 @@ header{
     justify-content: space-between;
     width: 96%;
     margin: auto;
+    max-width: 1440px;
 }
 ul{
     list-style: none;
@@ -21,16 +22,14 @@ ul{
 .logo{
     display: flex;
     align-items: center;
-    
 }
 .navbar{
     display: flex;
-    
+    width: 100%;
+    justify-content:space-between ;
 }
-.navigation{
-    display: flex;
-    align-items: center;
-    
+.links{
+    display: flex; 
 }
 .hebergement_nav{
     color:#0064fa;
@@ -363,7 +362,7 @@ ul{
 
 /*MOBILE*/
 
-@media screen and (max-width:600px){
+@media screen and (max-width:480px){
 
 main{
     width: 100%;
