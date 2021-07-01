@@ -40,12 +40,15 @@ ul
 
 .hebergement_nav
 {
+    display: flex;
 	color: #0064fa;
 	padding: 25px;
+    border-top: solid 4px #0064fa;
 }
 
 .activites_nav
 {
+    display: flex;
 	padding: 25px;
 }
 
@@ -489,7 +492,7 @@ a
 }
 
 /*MOBILE*/
-@media screen and (max-width:500px)
+@media screen and (max-width:600px)
 {
 	main
 	{
@@ -499,6 +502,7 @@ a
 	header
 	{
 		padding-top: 20px;
+        width: 100%;
 	}
 
 	.navbar
@@ -519,25 +523,43 @@ a
 	.hebergement_nav
 	{
 		grid-area: navbar-hebergement;
-		margin: auto;
-        padding: 0;
+		align-items: center;
+        justify-content: center;
+        border-bottom: solid 4px #0064fa;
+        border-top: none;
 	}
+
+    .hbg
+    {
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+    }
 
 	.activites_nav
 	{
 		grid-area: navbar-activites;
-		margin: auto;
+		align-items: center;
+        justify-content: center;
+        border-bottom: solid 4px #F2F2F2;
 	}
+
+    .act
+    {
+        margin: 0;
+        padding: 0; 
+    }
 
 	.sign-up
 	{
 		grid-area: navbar-signup;
-		justify-content: flex-end;
+		align-items: center;
+        justify-content: center;
 	}
 
 	.filters
 	{
-	display: inline-block}
+	    display: inline-block
+    }
 
 	.title_h3_filters
 	{
@@ -553,14 +575,14 @@ a
 
 	.p1
 	{
-	margin: 10px 0 25px 25px
-}
+	    margin: 10px 0 25px 25px
+    }
 
 	.title_h1
 	{
 		font-size: 21px;
 		width: 90%;
-		margin: auto;
+		margin: 20px 0 0 20px;
 	}
 
 	.info
@@ -591,7 +613,9 @@ a
 		justify-content: space-between;
 		width: 90%;
 	}
-    .img{
+
+    .img
+    {
         height: 150px;
     }
 
@@ -619,6 +643,7 @@ a
         height: 150px;
         width: 160px;
     }
+
 	.title-h2_bloc
 	{
 		margin-left: 20px;
@@ -649,4 +674,8 @@ a
 	{
 		margin-left: 20px;
 	}
+
+/*TABLETTES*/
+
+
 }
