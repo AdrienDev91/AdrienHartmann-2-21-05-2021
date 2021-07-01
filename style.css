@@ -40,7 +40,7 @@ ul
 
 .hebergement_nav
 {
-	color:#0064fa;
+	color: #0064fa;
 	padding: 25px;
 }
 
@@ -51,7 +51,7 @@ ul
 
 .sinscrire_nav
 {
-	color: #0064fa;
+    color: #0064fa;
 	padding: 25px;
 	font-weight: 600;
 }
@@ -489,7 +489,7 @@ a
 }
 
 /*MOBILE*/
-@media screen and (max-width:480px)
+@media screen and (max-width:500px)
 {
 	main
 	{
@@ -520,6 +520,7 @@ a
 	{
 		grid-area: navbar-hebergement;
 		margin: auto;
+        padding: 0;
 	}
 
 	.activites_nav
@@ -547,11 +548,13 @@ a
 	.research-box
 	{
 		width: 90%;
-	margin: auto}
+	    margin: auto
+    }
 
 	.p1
 	{
-	margin: 10px 0 25px 25px}
+	margin: 10px 0 25px 25px
+}
 
 	.title_h1
 	{
@@ -588,6 +591,9 @@ a
 		justify-content: space-between;
 		width: 90%;
 	}
+    .img{
+        height: 150px;
+    }
 
 	.afficher-plus
 	{
@@ -609,6 +615,10 @@ a
 		padding-bottom: 22px;
 	}
 
+    .img2{
+        height: 150px;
+        width: 160px;
+    }
 	.title-h2_bloc
 	{
 		margin-left: 20px;
