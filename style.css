@@ -11,7 +11,7 @@ main{
 
 header{
     display: flex;
-    justify-content: space-between;
+
     width: 96%;
     margin: auto;
     max-width: 1440px;
@@ -19,17 +19,16 @@ header{
 ul{
     list-style: none;
 }
+
 .logo{
     display: flex;
     align-items: center;
+    width: 70%;
 }
 .navbar{
     display: flex;
     width: 100%;
-    justify-content:space-between ;
-}
-.links{
-    display: flex; 
+    
 }
 .hebergement_nav{
     color:#0064fa;
@@ -55,7 +54,7 @@ ul{
     display: flex;
     flex-direction: row;
     margin-top: 15px;
-    margin-bottom: 35px;
+    margin-bottom: 10px;
 }
 .research_bar{
     padding-left:  20px;
@@ -80,10 +79,10 @@ ul{
     padding: 17px;
 }
 .info{
-    display: inline-block;
     display: flex;
     flex-direction: row;
-    align-items: center;  
+    align-items: center; 
+    margin: 5px 0 15px 0; 
 }
 .ul-list{
     display: inline-flex;
@@ -121,6 +120,10 @@ ul{
 }
 .far{
     color: #e2e2e2;
+}
+a{
+    text-decoration: none;
+    color: initial;
 }
 .info-logo{
     background-color: white;
@@ -207,14 +210,24 @@ ul{
     border-radius: 20px;
     border: 5px solid transparent;
     box-shadow: 0px 0px 6px 0px #0000002e;
-}
+    max-width: 100%;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
 
+}
+.img-case1:hover{
+    -moz-transform: scale(1.06);
+    -webkit-transform: scale(1.06);
+    transform: scale(1.06);
+}
 .img{
     width: 100%;
     height: 110px;
     background-size: 100% 100%;
     border-radius: 20px 20px 0 0;
     object-fit: cover;
+
 }
 .nom-hotel{
     margin: 0;
@@ -264,6 +277,15 @@ ul{
     border-radius: 20px;
     padding: 7px 0 7px 7px;
     box-shadow: 0px 0px 6px 0px #0000002e;
+    max-width: 100%;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.img-case2:hover{
+    -moz-transform: scale(1.06);
+    -webkit-transform: scale(1.06);
+    transform: scale(1.06);
 }
 .img2{
     display: flex;
@@ -299,18 +321,15 @@ ul{
 
 /*BLOC ACTIVITÉS*/
 
-.bloc_activites{
-    display: grid;
-    height: 550px;
-    margin-bottom: 50px; 
-}
+
 .container-activites{
     display: grid;
     height: 550px;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 5fr 0.25fr 0.25fr 0.25fr 0.25fr 5fr;
     grid-template-areas: "pic1 pic2 pic4 pic5""pic1 pic2 pic4 pic5""pic1 pic2 pic4 pic6""pic1 pic2 pic4 pic6""pic1 pic3 pic4 pic6""pic1 pic3 pic4 pic6";
-    grid-gap: 30px; 
+    grid-gap: 30px;
+    margin-bottom: 50px;
          
 }
 .img-case3{
@@ -319,7 +338,16 @@ ul{
     width: 100%;
     height: 100%;
     border-radius: 20px;
-    box-shadow: 1px 1px 17px -10px black 
+    box-shadow: 1px 1px 17px -10px black;
+    max-width: 100%;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s; 
+}
+.img-case3:hover{
+    -moz-transform: scale(1.06);
+    -webkit-transform: scale(1.06);
+    transform: scale(1.06);
 }
 .img3{
 
@@ -367,7 +395,9 @@ ul{
 main{
     width: 100%;
 }
-
+header{
+    padding-top: 20px;
+}
 .navbar{
     width: 100%;
     display: grid;
@@ -436,6 +466,9 @@ main{
     justify-content: space-between;
     width: 90%;
 
+}
+.afficher-plus{
+    margin-left: 10px;
 }
 .bloc_populaire{
     display: flex;
