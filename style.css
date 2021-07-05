@@ -331,6 +331,7 @@ a
 }
 
 /*BLOC POPULAIRE*/
+
 .bloc_populaire
 {
 	display:flex;
@@ -343,13 +344,18 @@ a
 
 .populaire-boites
 {
-	display: grid;
-	grid-template-columns: 1fr;
-	grid-template-rows: 0.25fr 1fr 1fr 1fr;
-	row-gap: 20px;
+	display: flex;
+    flex-direction: column;
 	width: 90%;
 	margin: auto;
 	padding-bottom: 35px;
+}
+
+.pop-box
+{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 
 .img-case2
