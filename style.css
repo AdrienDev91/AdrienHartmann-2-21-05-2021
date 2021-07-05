@@ -413,21 +413,20 @@ a
 .container-activites
 {
 	display: grid;
-	height: 550px;
+	height: 650px;
 	grid-template-columns: repeat(4, 1fr);
 	grid-template-rows: 5fr 0.25fr 0.25fr 0.25fr 0.25fr 5fr;
 	grid-template-areas: "pic1 pic2 pic4 pic5""pic1 pic2 pic4 pic5""pic1 pic2 pic4 pic6""pic1 pic2 pic4 pic6""pic1 pic3 pic4 pic6""pic1 pic3 pic4 pic6";
-	grid-gap: 30px;
-	margin-bottom: 50px;
+	grid-row-gap: 80px;
+    grid-column-gap: 30px;
+	margin-bottom: 100px;
 }
 
 .img-case3
 {
-	position: relative;
 	width: 100%;
 	height: 100%;
-	border-radius: 20px;
-	box-shadow: 1px 1px 17px -10px black;
+	border-radius: 20px 20px 0 0;
 	max-width: 100%;
 	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
@@ -444,7 +443,7 @@ a
 .img3
 {
 	object-fit: cover;
-	border-radius: 20px;
+	border-radius: 20px 20px 0 0;
 	width: 100%;
 	height: 100%;
 	margin: 0;
@@ -452,13 +451,12 @@ a
 
 .h3-activites
 {
-	position: absolute;
 	width: 95%;
 	background-color: white;
 	border-radius: 0 0 20px 20px;
+    box-shadow: 1px 1px 17px -10px black;
 	padding: 20px 0 20px 5%;
-	margin: 0;
-	bottom: 0;
+	margin-top: -10px;
 }
 
 #pic1
@@ -492,11 +490,12 @@ a
 }
 
 /*MOBILE*/
-@media screen and (max-width:600px)
+@media screen and (max-device-width:600px)
 {
 	main
 	{
 		width: 100%;
+        height: 5000px
 	}
 
 	header
@@ -610,13 +609,13 @@ a
 	{
 		display: flex;
 		flex-direction: column;
-		justify-content: space-between;
-		width: 90%;
+		gap: 30px;
+		width: 95%;
 	}
 
     .img
     {
-        height: 150px;
+        height: 190px;
     }
 
 	.afficher-plus
@@ -655,6 +654,7 @@ a
 		flex-direction: column;
 		width: 92%;
 		margin: auto;
+        gap: 100px;
 	}
 
 	.img-case3
@@ -666,16 +666,93 @@ a
 	{
 		display: flex;
 		flex-direction: column;
-		position: relative;
-		top: 1000px;
 	}
 
 	.footer_bloc
 	{
 		margin-left: 20px;
 	}
-
+}
 /*TABLETTES*/
 
+@media all and (min-width: 1020px) and (max-width: 1330px)
+{
+    .blocs
+    {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
 
+    .bloc_populaire
+    {
+        display: flex;
+        width: 100%;
+        margin: auto;
+        
+    }
+
+    .populaire-boites
+    {
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        padding: 0;
+    }
+
+    .pop-box
+    {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        width: 98%;
+        max-height: 140px;
+    }
+
+    .img-case2
+    {
+        height: 80%;
+    }
+
+    .img2
+    {
+        width: 65%;
+        height: 100%;
+    }
+
+    .nom_prix_stars
+    {
+        width: 100%;
+    }
+
+    .h2-pop
+    {
+        display: flex;
+        
+    }
+
+    .bloc_hebergements
+    {
+        width: 100%;   
+    }
+
+    .container-activites
+    {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    .img-case3
+    {
+        width: 30%;
+        height: 40%;
+        margin: auto;
+    }
+
+
+    
+    
 }
+
