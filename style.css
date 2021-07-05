@@ -141,15 +141,11 @@ ul
 	padding: 0 20px 0 0;
 	margin-top: 10px;
 	border-radius: 200px;
-	-moz-transition: all 0.5s;
-	-webkit-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
 .filters-button:hover
 {
-	-moz-transform: scale(1.06);
-	-webkit-transform: scale(1.06);
 	transform: scale(1.06);
 }
 
@@ -281,15 +277,11 @@ a
 	border: 5px solid transparent;
 	box-shadow: 0px 0px 6px 0px #0000002e;
 	max-width: 100%;
-	-moz-transition: all 0.5s;
-	-webkit-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
 .img-case1:hover
 {
-	-moz-transform: scale(1.06);
-	-webkit-transform: scale(1.06);
 	transform: scale(1.06);
 }
 
@@ -367,15 +359,11 @@ a
 	padding: 7px 0 7px 7px;
 	box-shadow: 0px 0px 6px 0px #0000002e;
 	max-width: 100%;
-	-moz-transition: all 0.5s;
-	-webkit-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
 .img-case2:hover
 {
-	-moz-transform: scale(1.06);
-	-webkit-transform: scale(1.06);
 	transform: scale(1.06);
 }
 
@@ -434,15 +422,11 @@ a
 	height: 100%;
 	border-radius: 20px 20px 0 0;
 	max-width: 100%;
-	-moz-transition: all 0.5s;
-	-webkit-transition: all 0.5s;
 	transition: all 0.5s;
 }
 
 .img-case3:hover
 {
-	-moz-transform: scale(1.06);
-	-webkit-transform: scale(1.06);
 	transform: scale(1.06);
 }
 
