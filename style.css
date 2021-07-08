@@ -244,7 +244,6 @@ a
 {
 	display: flex;
 	justify-content: flex-start;
-	width: 100%;
 	margin-left: 35px;
 }
 
@@ -414,6 +413,11 @@ a
 	grid-template-areas: "pic1 pic2 pic4 pic5""pic1 pic2 pic4 pic5""pic1 pic2 pic4 pic6""pic1 pic2 pic4 pic6""pic1 pic3 pic4 pic6""pic1 pic3 pic4 pic6";
 	grid-row-gap: 70px;
     grid-column-gap: 30px;
+}
+
+.title-h2-act
+{
+	margin-left: 35px;
 }
 
 .img-case3
@@ -591,7 +595,7 @@ a
 		background-color:white;
 		display: flex;
 		flex-direction: column;
-		width: 96%;
+		width: 87%;
 		margin: auto;
 	}
 
@@ -623,7 +627,7 @@ a
 
 	.populaire-boites
 	{
-		width: 92%;
+		width: 85%;
 		margin: auto;
 		padding-bottom: 22px;
 	}
@@ -642,9 +646,14 @@ a
 	{
 		display: flex;
 		flex-direction: column;
-		width: 92%;
+		width: 85%;
 		margin: auto;
         gap: 100px;
+	}
+
+	.title-h2-act
+	{
+		margin-left: 60px
 	}
 
 	.img-case3
@@ -712,6 +721,7 @@ a
    .img-case3
    {
         width: 30%;
+		margin: auto;
    }
 
    .img3
