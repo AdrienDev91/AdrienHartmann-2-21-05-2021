@@ -2,13 +2,14 @@
 body
 {
 	font-family: 'Raleway', sans-serif;
-	max-width: 1440px;
-	margin: auto;
+	margin:auto;
+	overflow-x: hidden;
 }
 
 main
 {
 	width: 96%;
+	max-width: 1440px;
 	margin: auto;
 }
 
@@ -207,11 +208,18 @@ a
 {
 	width:100%;
 	background: #F2F2F2;
-	display: flex;
-	justify-content: center;
-	align-items: center;
 	margin: 0;
 	padding: 0;
+	margin-top: 150px;
+}
+
+.footer-div
+{
+	max-width: 1440px;
+	display: flex;
+	flex-direction: row;
+	margin: auto;
+
 }
 
 .footer_bloc
@@ -250,10 +258,11 @@ a
 {
 	display: flex;
 	flex-direction: column;
-	width: 70%;
+	width: 65%;
 	margin-right: 15px;
 	border-radius: 25px;
 	background-color: #F2F2F2;
+	font-size: 14px;
 }
 
 .hebergements-boites
@@ -297,19 +306,16 @@ a
 .nom-hotel
 {
 	margin: 0;
-	padding-left: 7px;
 }
 
 .prix-hotel
 {
 	margin: 5px 0 5px 0;
-	padding-left: 7px;
 }
 
 .stars
 {
 	display: inline-block;
-	padding-left: 7px;
 	color: #0064fa;
 }
 
@@ -328,10 +334,11 @@ a
 {
 	display:flex;
 	flex-direction: column;
-	width: 30%;
+	width: 35%;
 	margin-left: 15px;
 	border-radius: 25px;
 	background-color: #F2F2F2;
+	font-size: 14px;
 }
 
 .populaire-boites
@@ -374,12 +381,6 @@ a
 	height: 120px;
 	border-radius: 20px 0 0 15px;
 	object-fit: cover;
-	margin-right: 10px;
-}
-
-.prix-hotel_p
-{
-	padding-left: 7px;
 }
 
 .nom_prix_stars
@@ -387,8 +388,9 @@ a
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+	align-items: baseline;
+	padding: 0 0 0 7px;
 }
-
 .h2-pop
 {
 	display: flex;
@@ -407,13 +409,11 @@ a
 .container-activites
 {
 	display: grid;
-	height: 650px;
 	grid-template-columns: repeat(4, 1fr);
-	grid-template-rows: 5fr 0.25fr 0.25fr 0.25fr 0.25fr 5fr;
+	grid-template-rows: 6fr 0.25fr 0.25fr 0.25fr 0.25fr 6fr;
 	grid-template-areas: "pic1 pic2 pic4 pic5""pic1 pic2 pic4 pic5""pic1 pic2 pic4 pic6""pic1 pic2 pic4 pic6""pic1 pic3 pic4 pic6""pic1 pic3 pic4 pic6";
-	grid-row-gap: 80px;
+	grid-row-gap: 70px;
     grid-column-gap: 30px;
-	margin-bottom: 100px;
 }
 
 .img-case3
@@ -480,12 +480,12 @@ a
 }
 
 /*MOBILE*/
-@media screen and (max-device-width:600px)
+@media screen and (max-device-width:800px)
 {
+
 	main
 	{
 		width: 100%;
-        height: 5000px
 	}
 
 	header
@@ -654,6 +654,11 @@ a
 
 	.footer
 	{
+		margin-top: 150px;
+	}
+
+	.footer-div
+	{
 		display: flex;
 		flex-direction: column;
 	}
@@ -665,8 +670,15 @@ a
 }
 /*TABLETTES*/
 
-@media all and (min-width: 1020px) and (max-width: 1330px)
+@media screen and (min-width: 801px) and (max-width:1024px)
 {
+	.title_h1
+	{
+		font-size: 24px;
+		width: 90%;
+		margin: 20px 0 0 0;
+	}
+
     .blocs
     {
         display: flex;
@@ -674,280 +686,53 @@ a
         gap: 30px;
     }
 
-    .bloc_populaire
-    {
-        display: flex;
-        width: 100%;
-        margin: auto;
-        
-    }
+   .bloc_hebergements
+   {
+	   width: 100%;
+   }
 
-    .populaire-boites
-    {
-        display: flex;
-        flex-direction: column;
-        width: 95%;
-        
-    }
+   .bloc_populaire
+   {
+	   width: 100%;
+	   margin: 0;
+   }
+   
+   .populaire-boites
+   {
+	   width: 70%;
+   }
 
-    .pop-box
-    {
-        display: flex;
-        flex-direction: row;
-        gap: 20px;
-        width: 98%;
-        max-height: 140px;
-    }
+   .container-activites
+   {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 30px;
+   }
 
-    .img-case2
-    {
-        height: 80%;
-    }
-
-    .img2
-    {
-        width: 65%;
-        height: 100%;
-    }
-
-    .nom_prix_stars
-    {
-        width: 100%;
-    }
-
-    .h2-pop
-    {
-        display: flex;
-        
-    }
-
-    .bloc_hebergements
-    {
-        width: 100%;   
-    }
-
-    .container-activites
-    {
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        gap: 30px;
-    }
-    .img-case3
-    {
+   .img-case3
+   {
         width: 30%;
-        height: 40%;
-        margin: auto;
-    }    
+   }
+
+   .img3
+   {
+		height: 250px;
+   }
+
+   .footer
+   {
+	    margin-top: 100px;
+   }
+
+   .footer-div
+   {
+ 		display: flex;
+	    flex-direction: column;
+   }
+
+   .footer_bloc
+   {
+	    margin-left: 20px;
+   }
+
 }
-
-@media screen and (min-width: 601px) and (max-width:800px)
-{
-    
-        main
-        {
-            width: 100%;
-            height: 5000px
-        }
-    
-        header
-        {
-            width: 100%;
-        }
-    
-        .filters
-        {
-            display: inline-block
-        }
-    
-        .title_h3_filters
-        {
-            margin: 25px 0 -15px 30px;
-            align-items: center;
-        }
-    
-        .research-box
-        {
-            width: 90%;
-            margin: auto
-        }
-    
-        .p1
-        {
-            margin: 10px 0 25px 25px
-        }
-    
-        .title_h1
-        {
-            font-size: 21px;
-            width: 90%;
-            margin: 20px 0 0 20px;
-        }
-    
-        .info
-        {
-            width: 90%;
-            margin: auto;
-        }
-    
-        .blocs
-        {
-            display: flex;
-            flex-direction: column-reverse;
-        }
-    
-        .bloc_hebergements
-        {
-            background-color:white;
-            display: flex;
-            flex-direction: column;
-            width: 96%;
-            margin: auto;
-        }
-    
-        .hebergements-boites
-        {
-            display: flex;
-            flex-direction: column;
-            gap: 30px;
-            width: 95%;
-        }
-    
-        .img
-        {
-            height: 190px;
-        }
-    
-        .afficher-plus
-        {
-            margin-left: 10px;
-        }
-    
-        .bloc_populaire
-        {
-            display: flex;
-            width: 100%;
-            border-radius: 0;
-            margin: 0;
-        }
-    
-        .populaire-boites
-        {
-            width: 92%;
-            margin: auto;
-            padding-bottom: 22px;
-        }
-    
-        .img2{
-            height: 150px;
-            width: 160px;
-        }
-    
-        .title-h2_bloc
-        {
-            margin-left: 20px;
-        }
-    
-        .container-activites
-        {
-            display: flex;
-            flex-direction: column;
-            width: 92%;
-            margin: auto;
-            gap: 100px;
-        }
-    
-        .img-case3
-        {
-            height: 230px;
-        }
-    
-        .footer
-        {
-            display: flex;
-            flex-direction: column;
-        }
-    
-        .footer_bloc
-        {
-            margin-left: 20px;
-        }
-}
-
-@media screen and (min-width: 801px) and (max-width:1019px)
-{
-    .blocs
-    {
-        display: flex;
-        flex-direction: column-reverse;
-        gap: 30px;
-    }
-
-    .bloc_populaire
-    {
-        display: flex;
-        width: 100%;
-        margin: auto;
-    }
-
-    .populaire-boites
-    {
-        display: flex;
-        flex-direction: column;
-        width: 95%;
-    }
-
-    .pop-box
-    {
-        display: flex;
-        flex-direction: row;
-        gap: 15px;
-        width: 98%;
-    }
-
-    .img-case2
-    {
-        height: 80%;
-    }
-
-    .img2
-    {
-        width: 100%;
-        height: 100%;
-    }
-
-    .nom_prix_stars
-    {
-        display: flex;
-        width: 100%;
-        font-size: 14px;
-    }
-
-    .h2-pop
-    {
-        display: flex;
-        
-    }
-
-    .bloc_hebergements
-    {
-        width: 100%;   
-    }
-
-    .container-activites
-    {
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        gap: 30px;
-    }
-    .img-case3
-    {
-        width: 30%;
-        height: 40%;
-        margin: auto;
-    }
-}
-
