@@ -71,6 +71,11 @@ ul
 	margin: 10px 0;
 }
 
+.hbg
+{
+	color: #0064fa;
+}
+
 .research-box
 {
 	display: flex;
@@ -381,7 +386,7 @@ a
 
 .title-h2-act
 {
-	margin-left: 35px;
+	margin: 35px 0 35px 35px;
 }
 
 .img-case3
@@ -463,9 +468,9 @@ a
 	display: flex;
 	flex-direction: row;
 	max-width: 1440px;
-	justify-content: space-between;
+	gap: 180px;
 	margin: auto;
-	padding: 0 50px 0 50px;
+	padding: 0 50px 0 10px;
 }
 
 .footer-bloc
