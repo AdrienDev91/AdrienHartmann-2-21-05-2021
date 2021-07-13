@@ -292,7 +292,7 @@ a
 	display: flex;
 	justify-content: flex-start;
 	width: 100%;
-	margin-left: 35px;
+	margin-left: 45px;
 	font-weight: bold;
 }
 
@@ -622,7 +622,7 @@ a
 
 	.afficher-plus
 	{
-		margin-left: 10px;
+		margin-left: 20px;
 	}
 
 	.bloc-populaire
@@ -645,9 +645,9 @@ a
         width: 160px;
     }
 
-	.title-h2_bloc
+	.title-h2-bloc
 	{
-		margin-left: 20px;
+		margin-left: 15px;
 	}
 
 	.container-activites
@@ -678,11 +678,12 @@ a
 	{
 		display: flex;
 		flex-direction: column;
+		gap: 30px;
 	}
 
 	.footer-bloc
 	{
-		margin-left: 20px;
+		margin-left: 10px;
 	}
 }
 /*TABLETTES*/
@@ -746,11 +747,12 @@ a
    {
  		display: flex;
 	    flex-direction: column;
+		gap: 30px;
    }
 
    .footer-bloc
    {
-	    margin-left: 20px;
+	    margin-left: 10px;
    }
 
 }
