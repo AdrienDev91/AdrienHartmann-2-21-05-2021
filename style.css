@@ -4,20 +4,16 @@ body
 	font-family: 'Raleway', sans-serif;
 	margin:auto;
 }
-
-main
+.container-page
 {
 	width: 96%;
 	max-width: 1440px;
-	margin: auto;
+	margin: auto;	
 }
 
 header
 {
 	display: flex;
-	width: 96%;
-	margin: auto;
-	max-width: 1440px;
 }
 
 ul
@@ -378,9 +374,9 @@ a
 {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
-	grid-template-rows: 12em 2.5em 2.5em 10em;
-	grid-column-gap: 2em;
-	grid-row-gap: 1.5em;
+	grid-template-rows: 12em 3.5em 3.5em 12em;
+	grid-column-gap: 1.5em;
+	grid-row-gap: 1em;
 }
 
 .title-h2-act
@@ -390,10 +386,6 @@ a
 
 .img-case3
 {
-	width: 100%;
-	height: 100%;
-	border-radius: 20px 20px 0 0;
-	max-width: 100%;
 	transition: all 0.5s;
 }
 
@@ -500,7 +492,7 @@ a
 @media screen and (max-device-width:800px)
 {
 
-	main
+	.container-page
 	{
 		width: 100%;
 	}
@@ -508,7 +500,6 @@ a
 	header
 	{
 		padding-top: 20px;
-        width: 100%;
 	}
 
 	.navbar
@@ -695,6 +686,11 @@ a
 
 @media screen and (min-width: 801px) and (max-width:1024px)
 {
+	.container-page
+	{
+		width: 100%;
+	}
+
 	.title-h1
 	{
 		font-size: 24px;
@@ -711,13 +707,20 @@ a
 
    .bloc-hebergements
    {
-	   width: 100%;
+	   width: 96%;
+	   margin: auto;
+   }
+
+   .afficher-plus
+   {
+	   width: 50%;
    }
 
    .bloc-populaire
    {
 	   width: 100%;
 	   margin: 0;
+	   border-radius: 0;
    }
    
    .populaire-boites
