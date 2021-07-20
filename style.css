@@ -39,19 +39,19 @@ ul
     display: flex;
 	color: #0064fa;
 	padding: 25px;
-    border-top: solid 4px #0064fa;
+    border-top: solid 3px #0064fa;
 }
 
 .activites-nav
 {
     display: flex;
-	padding: 25px;
+	padding: 28px;
 }
 
 .sinscrire-nav
 {
     color: #0064fa;
-	padding: 25px;
+	padding: 28px;
 	font-weight: 600;
 }
 
@@ -181,7 +181,7 @@ a
 	padding: 7px 11px 7px 11px;
 	color: #0064fa;
 	border:solid 1px #D9D9D9;
-	border-radius: 2000px;
+	border-radius: 100%;
 	margin-right: 20px;
 	line-height: 1;
 }
@@ -262,7 +262,7 @@ a
 
 .nom-hotel
 {
-	margin: 0;
+	margin: 5px 0 0 0;
 }
 
 .prix-hotel
@@ -272,7 +272,6 @@ a
 
 .stars
 {
-	display: inline-block;
 	color: #0064fa;
 }
 
@@ -327,7 +326,7 @@ a
 	margin: 0;
 	background-color: white;
 	border-radius: 20px;
-	padding: 7px 0 7px 7px;
+	padding: 5px 0 3px 5px;
 	box-shadow: 0px 0px 6px 0px #0000002e;
 	max-width: 100%;
 	transition: all 0.5s;
@@ -351,10 +350,10 @@ a
 {
 	display: flex;
 	flex-direction: column;
+	margin: 5px 0 5px 15px;
 	justify-content: space-between;
-	align-items: baseline;
-	padding: 0 0 0 7px;
 }
+
 .h2-pop
 {
 	display: flex;
@@ -619,6 +618,7 @@ a
 	.afficher-plus
 	{
 		margin-left: 20px;
+		font-size: 20px;
 	}
 
 	.bloc-populaire
@@ -634,6 +634,11 @@ a
 		width: 85%;
 		margin: auto;
 		padding-bottom: 22px;
+	}
+
+	.nom-prix-stars
+	{
+		justify-content: space-between;
 	}
 
     .img2{
@@ -684,11 +689,11 @@ a
 }
 /*TABLETTES*/
 
-@media screen and (min-width: 801px) and (max-width:1024px)
+@media screen and (min-width: 801px) and (max-width:1100px)
 {
 	.container-page
 	{
-		width: 100%;
+		width: 96%;
 	}
 
 	.title-h1
@@ -721,11 +726,22 @@ a
 	   width: 100%;
 	   margin: 0;
 	   border-radius: 0;
+	   background-color: initial;
    }
    
+   .nom-prix-stars
+   {
+	   justify-content: space-between;
+   }
+
    .populaire-boites
    {
 	   width: 70%;
+   }
+
+   .img-case2
+   {
+	   background-color: #F2F2F2;
    }
 
    .container-activites
