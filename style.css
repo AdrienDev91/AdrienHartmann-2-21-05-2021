@@ -2,6 +2,7 @@ body {
   font-family: "Raleway", sans-serif;
   margin: auto;
 }
+
 .container-page {
   width: 96%;
   max-width: 1440px;
@@ -226,7 +227,7 @@ a {
 }
 
 .nom-hotel {
-  margin: 5px 0 0 0;
+  margin: 0;
 }
 
 .prix-hotel {
@@ -368,8 +369,8 @@ a {
 }
 
 #pic3 {
-	grid-column: 2/3;
-	grid-row: 4/5;
+  grid-column: 2/3;
+  grid-row: 4/5;
 }
 
 #pic4 {
@@ -378,8 +379,8 @@ a {
 }
 
 #pic5 {
-	grid-column: 4/5;
-	grid-row: 1/2;
+  grid-column: 4/5;
+  grid-row: 1/2;
 }
 
 #pic6 {
